@@ -41,7 +41,10 @@ npm test
 # Analyze bundle size
 npm run analyze
 
-# Project Structure
+---
+
+## 🛠️ Project Structure
+
 /src
   ├── components/      # Reusable components
   ├── pages/           # Route-based pages
@@ -49,3 +52,21 @@ npm run analyze
   ├── utils/           # Helper utilities
   └── App.tsx          # App entry point
 ```
+
+---
+
+##🧹 Code Quality
+
+ESLint configured with CRA presets
+
+Prettier included for formatting
+
+Babel plugins updated for modern syntax transforms
+
+
+---
+
+## ✅ Requirements
+Node.js v16 or higher
+
+npm v8 or higher
