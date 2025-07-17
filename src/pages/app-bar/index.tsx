@@ -46,9 +46,6 @@ const Appbar = () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
     const open = Boolean(anchorEl)
 
-    // Get Tokens from store
-    const tokens = useAppSelector((state) => state.general.tokens)
-
     const handleClick = (event: any) => {
         Cookies.get('token')
             ? setAnchorEl(event.currentTarget)
