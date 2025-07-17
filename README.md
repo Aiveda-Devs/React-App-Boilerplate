@@ -43,7 +43,7 @@ npm run analyze
 
 ---
 
-## 🛠️ Project Structure
+# Project Structure
 
 /src
   ├── components/      # Reusable components
@@ -56,7 +56,6 @@ npm run analyze
 ---
 
 ##🧹 Code Quality
-
 ESLint configured with CRA presets
 
 Prettier included for formatting
