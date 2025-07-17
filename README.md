@@ -55,7 +55,7 @@ npm run analyze
 
 ---
 
-##🧹 Code Quality
+## 🧹 Code Quality
 ESLint configured with CRA presets
 
 Prettier included for formatting
