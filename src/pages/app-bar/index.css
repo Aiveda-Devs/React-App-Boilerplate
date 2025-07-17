@@ -1,0 +1,14 @@
+/* Mobile Responsive */
+
+@media screen and (min-device-width: 300px) and (max-device-width: 600px) {
+}
+
+/* Tablet Responsive */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Desktop Responsive */
+
+@media (min-width: 1200px) {
+}
