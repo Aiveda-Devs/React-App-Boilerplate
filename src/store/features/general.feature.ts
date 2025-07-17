@@ -4,13 +4,11 @@ import { AivedaRootState } from '../store'
 export interface GeneralState {
     pageTitle: string | null
     hideNav: boolean | null
-    tokens: number | null
 }
 
 const initialState: GeneralState = {
     pageTitle: null,
     hideNav: null,
-    tokens: 0,
 }
 
 export const generalSlice = createSlice({
@@ -29,12 +27,6 @@ export const generalSlice = createSlice({
         ) => {
             state.hideNav = payload
         },
-        setTokens: (
-            state: GeneralState,
-            { payload }: PayloadAction<number | null>
-        ) => {
-            state.tokens = payload
-        },
     },
 })
 
@@ -42,7 +34,7 @@ export const generalSlice = createSlice({
  **    Actions    **
  *******************/
 
-export const { setPageTitle, setHideNav, setTokens } = generalSlice.actions
+export const { setPageTitle, setHideNav } = generalSlice.actions
 
 /*******************
  **   Selectors   **
